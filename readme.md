@@ -11,10 +11,6 @@ The **Image Processor GUI** is a Python-based desktop application that simplifie
 
 This application includes a user-friendly GUI for seamless interaction and is packaged as an installable `.exe` file for easy distribution.
 
-## Screenshots
-
-![Screenshot](./Screenshot_1.png)
-
 ---
 
 ## ✨ Features
@@ -116,7 +112,7 @@ By combining automation with user-friendliness, the tool saves valuable time and
 
 ### Main Interface
 
-![Main Interface](https://via.placeholder.com/800x400?text=Main+Interface+Screenshot)
+![Main Interface](./Screenshot_1.png)
 
 ---
 
