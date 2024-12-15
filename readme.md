@@ -23,51 +23,16 @@ This application includes a user-friendly GUI for seamless interaction and is pa
 
 ---
 
-## 📂 Project Structure
-
-```plaintext
-.
-├── image_processor_gui.py   # Main Python script
-├── requirements.txt         # Python dependencies
-├── README.md                # Documentation
-└── dist/                    # Folder containing the compiled executable
-```
-
----
-
 ## 🔧 Installation
 
 ### Prerequisites
 
-- Python 3.8+
 - Internet connection (for Pixabay API)
-
-### Steps to Install
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/image-processor-gui.git
-   cd image-processor-gui
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the application:
-   ```bash
-   python image_processor_gui.py
-   ```
-4. To use the `.exe` file (optional):
-   - Navigate to the `dist/` folder.
-   - Double-click `image_processor_gui.exe` to launch the application.
-
----
 
 ## 🖥️ Usage
 
 1. **Launch the Application**:
 
-   - If running via Python: Execute `python image_processor_gui.py`.
    - If using the `.exe` file: Double-click the executable.
 
 2. **Choose Input and Output Directories**:
@@ -113,24 +78,6 @@ By combining automation with user-friendliness, the tool saves valuable time and
 ### Main Interface
 
 ![Main Interface](./Screenshot_1.png)
-
----
-
-## 🛠️ Building the Executable
-
-To package the project as an `.exe` file:
-
-1. Install PyInstaller:
-   ```bash
-   pip install pyinstaller
-   ```
-2. Run the following command:
-   ```bash
-   pyinstaller --onefile --windowed image_processor_gui.py
-   ```
-3. Locate the `.exe` file in the `dist/` directory.
-
----
 
 ## 📜 License
 
